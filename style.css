@@ -1,0 +1,52 @@
+.title,
+.home {
+    
+    background-color: yellow;
+    font-family: 'Times New Roman', Times, serif;
+    color: darkgreen;
+    text-align: center;
+    border: 10px black solid;
+    padding: 10px;
+    margin: 10px;
+    max-width: fit-content;
+
+}
+
+.top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+.recipe-nav {
+    font-family: sans-serif;
+    list-style: none;
+    display: flex;
+    text-align: center;
+    background-color: aqua;
+    padding: 0;
+    justify-content: center;
+
+    
+}
+
+li {
+    margin: 5px;
+    border: 1px black solid;
+}
+
+.recipe-nav a{
+    display: block;
+    padding: 10px;
+    background-color: fuchsia;
+        
+}
+
+.recipe-nav a:hover{
+    background-color: rgb(148, 102, 18);
+    color: white;
+}
+
